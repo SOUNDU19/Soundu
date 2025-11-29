@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soundarya HS | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <div class="logo">Soundarya HS</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <i class="fas fa-bars menu-icon" id="menuBtn"></i>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero">
+    <img src="Soundarya.jpg" alt="Profile Photo" />
+
+    <div class="hero-text">
+      <h3>Hello, I'm</h3>
+      <h1>Soundarya H S</h1>
+
+      <!-- TYPING EFFECT -->
+      <div class="roles" id="typing"></div>
+
+      <div class="hero-buttons">
+        <a href="Soundarya_CV.pdf" download class="btn">Download CV</a>
+        <a href="#contact" class="btn contact">Contact Me</a>
+      </div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/soundarya-h-s-4739332a6" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/SOUNDU19" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/soundaryas63?igsh=MXdubDN5aWpkdW1oMw==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto://ssoundarya090@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+       <p>
+        Hello! I'm <strong>Soundarya H S</strong>, a passionate and dedicated
+        Computer Science and Engineering student with a strong interest in
+        <strong>Artificial Intelligence, Machine Learning, Web Development, and C++ programming</strong>.
+        Coming from a humble rural background, I have always believed in the power of
+        hard work, consistency, and continuous learning.
+      </p>
+   <p>
+        My journey into the world of technology started with curiosity — how apps
+        work, how websites are built, and how AI is shaping the future. Over time,
+        this curiosity grew into a strong passion that motivates me every day to
+        learn, innovate, and create real-world projects that make a difference.
+      </p>
+         <p>
+        I have hands-on experience in building projects like a
+        <strong>Resume Analyzer using NLP</strong>, <strong>Instagram Clone</strong>,
+        and multiple small web applications using <strong>HTML, CSS, JavaScript, and React</strong>.
+        I am also an <strong>AIML enthusiast</strong> who loves exploring data, building
+        smart systems, and solving problems using algorithms.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION SECTION ================= -->
+   <section id="Education" class="about-section">
+    <h2 class="section-title">Education</h2>
+
+    <div class="edu-card">
+      <h3>B.E. Computer Science and Engineering</h3>
+      <p>East West Institute of Technology, Bangalore</p>
+      <p>CGPA: 8.7</p>
+      <p>2022 – Present</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>PUC (PCMB)</h3>
+      <p>Jnanabharathi PU College, Kunigal</p>
+      <p>Percentage: 92.03%</p>
+      <p>2020 – 2022</p>
+    </div>
+
+    <div class="edu-card">
+      <h3>SSLC</h3>
+      <p>GHS Government High School, Ujjani</p>
+      <p>Percentage: 92.47%</p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-tabs">
+      <button class="tab-btn active" onclick="openTab('tech')">Technical Skills</button>
+      <button class="tab-btn" onclick="openTab('soft')">Soft Skills</button>
+    </div>
+
+    <!-- Technical Skills -->
+    <div id="tech" class="tab-content active">
+      <ul class="skill-list">
+        <li>HTML, CSS, JavaScript, React, Tailwind</li>
+        <li>Node.js, Express, MongoDB, MySQL</li>
+        <li>Python, C, C++, Java</li>
+        <li>Git, GitHub, VS Code</li>
+      </ul>
+    </div>
+
+    <!-- Soft Skills -->
+    <div id="soft" class="tab-content">
+      <ul class="skill-list">
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Leadership</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Resume Analyzer (NLP)</h3>
+        <p>A web app built using Streamlit & Python with resume parsing, NER and ML classification.</p>
+        <div class="project-buttons">
+          <a href="https://github.com/SOUNDU19/Resume-Anlyser-Project.git" class="project-btn">GitHub</a>
+  
+        </div>
+      </div>
+
+  
+
+     
+
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact">
+    <p class="subtitle">Get in Touch</p>
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-box">
+
+      <a href="mailto:ssoundarya090@gmail.com" class="contact-item">
+        <i class="fas fa-envelope"></i>
+        ssoundarya090@gmail.com
+      </a>
+
+      <a href="https://www.linkedin.com/in/soundarya-h-s-4739332a6" class="contact-item">
+        <i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/soundaryas63?igsh=MXdubDN5aWpkdW1oMw==" class="contact-item">
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
+    </div>
+
+    <p class="footer">© 2025 Soundarya H S. All Rights Reserved.</p>
+  </section>
+
+<script src="script.js"></script>
+</body>
+</html>
